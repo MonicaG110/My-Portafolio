@@ -443,7 +443,7 @@ li{
   margin-left: 10px;
 }
 
-ul{
+nav ul{
 background-color: black;
 height: 60px;
 
@@ -499,19 +499,34 @@ background-color: rgb(224, 228, 204);
   margin: 0 auto;
 }
 #Portafolio{
-  background-color: rgb(105, 210, 231);
+  background-color: rgb(243, 134, 48);
 }
 
 .myPortafolio{
-  background-color:rgb(243, 134, 48);
+  background-color:rrgb(105, 210, 231);
   height: 70%;
 }
 
 .simple{
- margin-left: 30px;
- border-color: black;
+ margin-left: 20px;
+ border-top: 4px solid black;
+ border-right: 4px solid black;
+ border-left: 4px solid black;
+ border-bottom: 4px solid black;
 }
 
+.one-seven{
+  float:right;
+  width: 54%;
+}
+
+.info{
+  margin-left: 40px;
+}
+
+.one-six{
+  margin:30px;
+}
 /******************************************
 FOOTER
 *******************************************/
@@ -560,7 +575,7 @@ color:rgb(32, 169, 237);
 
 .icons:hover{
 color:rgb(243, 130, 25);
-
+}
 
 
 
