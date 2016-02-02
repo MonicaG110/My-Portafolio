@@ -437,8 +437,7 @@ text-decoration: none;
 padding-right: 60px;
 color:rgb(32, 169, 237);
 }
-
-li{
+nav li{
   list-style: none;
   margin-left: 10px;
 }
@@ -503,21 +502,23 @@ background-color: rgb(224, 228, 204);
 }
 
 .myPortafolio{
-  background-color:rrgb(105, 210, 231);
-  height: 70%;
+  background-color:red;
+ 
 }
 
 .simple{
  margin-left: 20px;
- border-top: 4px solid black;
- border-right: 4px solid black;
- border-left: 4px solid black;
- border-bottom: 4px solid black;
+ border-top: 6px solid black;
+ border-right: 6px solid black;
+ border-left: 6px solid black;
+ border-bottom: 6px solid black;
 }
 
 .one-seven{
   float:right;
   width: 54%;
+  font-size: 16px;
+  margin-right: 70px;
 }
 
 .info{
