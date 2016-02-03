@@ -494,7 +494,6 @@ nav ul{
 }
 
 .description{
-  background:rgb(115, 216, 255);
   width: 90%;
 }
 
@@ -545,7 +544,13 @@ nav ul{
   border-radius: 15px;
 }
 
+#contact{
+  text-align: center;
+}
 
+form{
+  background-color: rgb(3, 5, 27);
+}
 /******************************************
 FOOTER
 *******************************************/
