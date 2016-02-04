@@ -425,11 +425,10 @@ body{
 }
 
 .navBar{
-  background: url("../images/background.jpg")no-repeat;
+  background: url("../images/background.jpg")50% 0 no-repeat fixed;
   background-size: cover;
   height: 650px;
-  background-position: 0% 54%;
-    
+
 }
 
 a{
@@ -544,12 +543,13 @@ nav ul{
   border-radius: 15px;
 }
 
-#contact{
-  text-align: center;
+form{
+  background-color:grey;
+  padding: 25px;
 }
 
-form{
-  background-color: rgb(3, 5, 27);
+h2#contact {
+  text-align: center;
 }
 /******************************************
 FOOTER
