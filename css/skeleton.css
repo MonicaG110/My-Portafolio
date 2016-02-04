@@ -205,9 +205,9 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  color: (238, 238, 238, 0.99);
+  background-color:rgb(243, 134, 48);
+  border-color:rgb(243, 134, 48);  }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -218,9 +218,9 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  color: (238, 238, 238, 0.99);
+  background-color:rgb(243, 134, 48);
+  border-color:rgb(243, 134, 48);  }
 
 
 /* Forms
@@ -254,6 +254,7 @@ textarea {
      -moz-appearance: none;
           appearance: none; }
 textarea {
+  font-weight: bold;
   min-height: 65px;
   padding-top: 6px;
   padding-bottom: 6px; }
@@ -425,7 +426,7 @@ body{
 }
 
 .navBar{
-  background: url("../images/background.jpg")50% 0 no-repeat fixed;
+  background: url("../images/background.jpg")50% 33% no-repeat fixed;
   background-size: cover;
   height: 650px;
 
@@ -484,7 +485,8 @@ nav ul{
   color:rgb(5, 32, 51);
   font-weight: bold;
   text-align: center;
-
+  font-family: 'Roboto', sans-serif;
+  
 }
 
 .main-container{
@@ -494,6 +496,12 @@ nav ul{
 
 .description{
   width: 90%;
+  background-color: #fff;
+  color: #333333;
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 50px;
 }
 
 .container{
@@ -504,6 +512,7 @@ nav ul{
   background-color: rgb(243, 134, 48);
   color:rgb(5, 32, 51);
 }
+
 
 .row-one{
   background-color:rgb(110, 208, 244);
@@ -532,6 +541,7 @@ nav ul{
 #Portafolio{
   background-color: rgb(243, 134, 48);
   color:rgb(5, 32, 51);
+  text-indent: 10px;
 }
 
 .simple{
@@ -544,13 +554,24 @@ nav ul{
 }
 
 form{
-  background-color:grey;
-  padding: 25px;
+  padding: 60px;
+  margin-top: 10px;
+  background: url("../images/coffee3.jpg") 50% 0 no-repeat fixed;
+  height: 500px;
+  background-size: cover;
+  color:rgba(238, 238, 238, 0.99);
 }
 
-h2#contact {
-  text-align: center;
+h2{
+  text-align:center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
+
+.row-mail{
+  padding-top: 30px;
+}
+
 /******************************************
 FOOTER
 *******************************************/
@@ -577,10 +598,14 @@ FOOTER
   position: relative;
   top: 3px;
   padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 #footer p:hover{
   color: rgb(243, 130, 25);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   }
 
 #footer a {
