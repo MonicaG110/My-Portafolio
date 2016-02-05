@@ -429,6 +429,8 @@ body{
   background: url("../images/background.jpg")50% 33% no-repeat fixed;
   background-size: cover;
   height: 650px;
+  background-color:grey;
+  background-blend-mode: multiply;
 
 }
 
@@ -469,6 +471,8 @@ nav ul{
   padding-top: 138px;
   text-shadow: 3px 12px 9px black;
   font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 
 }
 
@@ -478,6 +482,8 @@ nav ul{
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 #title{
@@ -486,17 +492,20 @@ nav ul{
   font-weight: bold;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  background-color:#F1F1F1;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 50px;
   
 }
 
 .main-container{
   width: 100%;
-  background-color:beich;
+  background-color:#555;
 }
 
 .description{
-  width: 90%;
-  background-color: #fff;
+  background-color:#F1F1F1;
   color: #333333;
   height: 200px;
   margin: 0 auto;
@@ -505,14 +514,33 @@ nav ul{
 }
 
 .container{
-  width: 90%
+  width: 100%;
 }
 
 #About{
-  background-color: rgb(243, 134, 48);
   color:rgb(5, 32, 51);
+  padding:50px;
+  padding-top:50px;
+
 }
 
+.me{
+color: #333333;
+height: 300px;
+margin: 0 auto;
+overflow: hidden;
+padding: 50px;
+}
+
+.row-about{
+  background-color:#E1E1E1;
+  background: url("../images/pic11.jpg")50% 33% no-repeat fixed;
+  background-size: cover;
+  height: 650px;
+  background-color:grey;
+  background-blend-mode: multiply;
+  
+}
 
 .row-one{
   background-color:rgb(110, 208, 244);
@@ -539,9 +567,8 @@ nav ul{
 }
 
 #Portafolio{
-  background-color: rgb(243, 134, 48);
   color:rgb(5, 32, 51);
-  text-indent: 10px;
+  padding-top: 50px;
 }
 
 .simple{
@@ -560,6 +587,7 @@ form{
   height: 500px;
   background-size: cover;
   color:rgba(238, 238, 238, 0.99);
+
 }
 
 h2{
@@ -582,7 +610,6 @@ FOOTER
   height: 60px;
   position: relative;
   text-align: center;
-  margin-top: 40px;
   background-color: rgb(3, 5, 27);
 }
 
