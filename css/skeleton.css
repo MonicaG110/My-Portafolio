@@ -354,8 +354,7 @@ table,
 p,
 ul,
 ol,
-form {
-  margin-bottom: 2.5rem; }
+form {margin:0;}
 
 
 /* Utilities
@@ -426,7 +425,7 @@ body{
 }
 
 .navBar{
-  background: url("../images/background.jpg")50% 33% no-repeat fixed;
+  background: url("../images/creative.jpg")50% 33% no-repeat fixed;
   background-size: cover;
   height: 650px;
   background-color:grey;
@@ -436,8 +435,7 @@ body{
 
 a{
   text-decoration: none;
-  color:rgb(5, 32, 51);
-}
+ }
 
 nav li{
   list-style: none;
@@ -455,7 +453,7 @@ nav ul{
   margin:5px;
   font-size: 20px;
   padding-top: 6px;
-  color:rgb(32, 169, 237);
+  color:rgba(238, 238, 238, 0.99);
   padding-right: 60px;
 }
 
@@ -464,7 +462,7 @@ nav ul{
 }
 
 .name{
-  color:rgb(32, 169, 237);
+  color:rgba(238, 238, 238, 0.99);
   margin-left: 73px;
   font-size: 40px;
   font-weight: bold;
@@ -477,7 +475,7 @@ nav ul{
 }
 
 .mail {
-  color:rgb(32, 169, 237);
+  color:rgba(238, 238, 238, 0.99);
   margin-left: 73px;
   font-size: 20px;
   font-weight: bold;
@@ -501,7 +499,7 @@ nav ul{
 
 .main-container{
   width: 100%;
-  background-color:#555;
+  background-color:#BBB;
 }
 
 .description{
@@ -515,21 +513,22 @@ nav ul{
 
 .container{
   width: 100%;
+  height: 660px;
 }
 
 #About{
-  color:rgb(5, 32, 51);
+  color:rgba(238, 238, 238, 0.99);
   padding:50px;
   padding-top:50px;
 
 }
 
 .me{
-color: #333333;
-height: 300px;
-margin: 0 auto;
-overflow: hidden;
-padding: 50px;
+  color:rgba(238, 238, 238, 0.99);
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 50px;
 }
 
 .row-about{
@@ -542,51 +541,19 @@ padding: 50px;
   
 }
 
-.row-one{
-  background-color:rgb(110, 208, 244);
-  padding: 20px;
-  padding-top: 40px;
-  border-radius: 20px;
-  color:rgb(5, 32, 51);
-
-}
-.row-two{
-  background-color:rgb(46, 118, 202);
-  padding: 20px;
-  padding-top: 40px;
-  border-radius: 20px;
-  color:rgb(3, 5, 27);
-  
-}
-.row-three{
-  background-color:rgb(54, 76, 142);
-  padding: 20px;
-  padding-top: 40px;
-  border-radius: 20px;
-  color:rgb(3, 5, 27);
-}
-
 #Portafolio{
   color:rgb(5, 32, 51);
   padding-top: 50px;
-}
-
-.simple{
-  margin-left: 20px;
-  border-top: 10px solid rgb(5, 32, 51);
-  border-right: 10px solid rgb(5, 32, 51);
-  border-left: 10px solid rgb(5, 32, 51);
-  border-bottom: 10px solid rgb(5, 32, 51);
-  border-radius: 15px;
+  padding-bottom: 30px;
 }
 
 form{
   padding: 60px;
-  margin-top: 10px;
   background: url("../images/coffee3.jpg") 50% 0 no-repeat fixed;
   height: 500px;
   background-size: cover;
   color:rgba(238, 238, 238, 0.99);
+  opacity:0.9px;
 
 }
 
@@ -594,6 +561,7 @@ h2{
   text-align:center;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  text-shadow: 3px 12px 9px black;
 }
 
 .row-mail{
@@ -610,7 +578,7 @@ FOOTER
   height: 60px;
   position: relative;
   text-align: center;
-  background-color: rgb(3, 5, 27);
+  background-color:black;
 }
 
 #footer h3{
@@ -621,7 +589,7 @@ FOOTER
 
 #footer p{
   display: inline-block;
-  color:rgb(32, 169, 237);
+  color:rgba(238, 238, 238, 0.99);
   position: relative;
   top: 3px;
   padding-left: 10px;
@@ -641,12 +609,12 @@ FOOTER
   padding-left: 25px;
   position: relative;
   top: 6px;
-  color: rgb(32, 169, 237);
+  color:rgba(238, 238, 238, 0.99);
 
 }
 
 .icons{
-  color:rgb(32, 169, 237);
+  color:rgba(238, 238, 238, 0.99);
 }
 
 .icons:hover{
