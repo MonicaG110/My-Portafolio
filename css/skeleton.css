@@ -354,7 +354,7 @@ table,
 p,
 ul,
 ol,
-form {margin:0;}
+form {margin:0.7px;}
 
 
 /* Utilities
@@ -545,7 +545,6 @@ nav ul{
   color:rgb(5, 32, 51);
   padding-top: 50px;
   padding-bottom: 30px;
-
 }
 
 form{
@@ -562,11 +561,9 @@ h2{
   text-align:center;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-}
-
-.unique{
   text-shadow: 3px 12px 9px black;
 }
+
 .row-mail{
   padding-top: 30px;
 }
@@ -581,7 +578,7 @@ FOOTER
   height: 60px;
   position: relative;
   text-align: center;
-  background-color:black;
+  background-color: rgb(3, 5, 27);
 }
 
 #footer h3{
