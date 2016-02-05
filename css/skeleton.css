@@ -545,6 +545,7 @@ nav ul{
   color:rgb(5, 32, 51);
   padding-top: 50px;
   padding-bottom: 30px;
+
 }
 
 form{
@@ -561,9 +562,11 @@ h2{
   text-align:center;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  text-shadow: 3px 12px 9px black;
 }
 
+.unique{
+  text-shadow: 3px 12px 9px black;
+}
 .row-mail{
   padding-top: 30px;
 }
