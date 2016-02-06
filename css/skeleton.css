@@ -552,6 +552,11 @@ nav ul{
   padding-bottom: 30px;
 }
 
+.iconone{
+  background-color:rgb(5, 32, 51);
+  color:#E1E1E1;
+}
+
 form{
   padding: 60px;
   background: url("../images/coffee3.jpg") 50% 0 no-repeat fixed;
