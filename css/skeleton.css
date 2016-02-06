@@ -451,7 +451,7 @@ nav ul{
 .nav a{
   float:right;
   margin:5px;
-  font-size: 20px;
+  font-size: 25px;
   padding-top: 6px;
   color:rgba(238, 238, 238, 0.99);
   padding-right: 60px;
@@ -464,10 +464,10 @@ nav ul{
 .name{
   color:rgba(238, 238, 238, 0.99);
   margin-left: 73px;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bold;
   padding-top: 138px;
-  text-shadow: 3px 12px 9px black;
+  text-shadow: 1px -5px 0px black;
   font-style: italic;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -477,7 +477,7 @@ nav ul{
 .mail {
   color:rgba(238, 238, 238, 0.99);
   margin-left: 73px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   font-style: italic;
   font-family: 'Roboto', sans-serif;
@@ -524,11 +524,16 @@ nav ul{
 }
 
 .me{
-  color:rgba(238, 238, 238, 0.99);
+  color:#F1F1F1;
   height: 300px;
   margin: 0 auto;
   overflow: hidden;
   padding: 50px;
+  font-size: 23px;
+  width: 79%;
+  background-color: rgba(238, 238, 238, 0.11);
+  border: 1px solid black;
+  opacity: 0.8;
 }
 
 .row-about{
@@ -552,16 +557,20 @@ form{
   background: url("../images/coffee3.jpg") 50% 0 no-repeat fixed;
   height: 500px;
   background-size: cover;
-  color:rgba(238, 238, 238, 0.99);
+  color:#F1F1F1;
   opacity:0.9px;
 
+}
+
+.unique{
+  text-shadow: -6px 1px 2px black;
 }
 
 h2{
   text-align:center;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  text-shadow: 3px 12px 9px black;
+  
 }
 
 .row-mail{
