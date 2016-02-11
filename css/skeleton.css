@@ -460,6 +460,16 @@ margin:0 auto;
   padding-right: 50px;
 }
 
+/*@media (max-width: 400px){
+
+  .section-nav{
+    text-align: left;
+  }
+  .section-nav a{
+    display:block;
+  }
+}
+*/
 .section-nav a:hover{
   color:rgb(243, 130, 25);
 }
@@ -477,7 +487,7 @@ margin:0 auto;
 
 }
 
-.two{
+.one-half{
   color:rgba(238, 238, 238, 0.99);
   font-size: 25px;
   font-weight: bold;
@@ -606,6 +616,7 @@ padding-bottom: 60px;
   padding:25px;
   background: url("../images/coffee3.jpg") 50% 0% no-repeat fixed;
   background-size: cover;
+  
 
 }
 
