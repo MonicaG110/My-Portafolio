@@ -460,21 +460,11 @@ margin:0 auto;
   padding-right: 50px;
 }
 
-/*@media (max-width: 400px){
-
-  .section-nav{
-    text-align: left;
-  }
-  .section-nav a{
-    display:block;
-  }
-}
-*/
 .section-nav a:hover{
   color:rgb(243, 130, 25);
 }
 
-.one{
+.five{
   color:rgba(238, 238, 238, 0.99);
   font-size: 30px;
   font-weight: bold;
@@ -487,10 +477,9 @@ margin:0 auto;
 
 }
 
-.one-half{
+.six{
   color:rgba(238, 238, 238, 0.99);
   font-size: 25px;
-  font-weight: bold;
   font-style: italic;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
