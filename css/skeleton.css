@@ -425,11 +425,10 @@ body{
 }
 
 .navBar{
-  background: url("../images/creative.jpg")50% 33% no-repeat fixed;
+  background: url("../images/creative.jpg")62% 33% no-repeat fixed;
   background-size: cover;
   background-color:grey;
   background-blend-mode: multiply;
-
 }
 
 a{
@@ -465,33 +464,34 @@ margin:0 auto;
   color:rgb(243, 130, 25);
 }
 
-.name{
+.one{
   color:rgba(238, 238, 238, 0.99);
-  margin-left: 73px;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: bold;
   padding-top: 138px;
   text-shadow: 1px -5px 0px black;
   font-style: italic;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  margin-left:30px;
 
 }
 
-.mail {
+.two{
   color:rgba(238, 238, 238, 0.99);
-  margin-left: 73px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   font-style: italic;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  margin-left:30px;
+  padding-bottom: 10px;
 }
 
 .container-one{
   margin: 0 auto;
   margin-left: 20px;
-  padding: 50px;
+  padding-bottom: 60px;
 }
 
 #title{
@@ -508,7 +508,7 @@ margin:0 auto;
 
 .section-description{
   background-color:#F1F1F1;
-  padding: 50px;
+  padding: 60px;
 
 }
 
@@ -517,6 +517,7 @@ margin:0 auto;
   margin: 0 auto;
   overflow: hidden;
   font-size: 20px;
+  padding-bottom: 10px;
   
 }
 
@@ -601,13 +602,16 @@ padding-bottom: 60px;
 
 }
 
-form{
-  padding:80px;
-  background: url("../images/coffee3.jpg") 50% 0 no-repeat fixed;
+.section-form{
+  padding:25px;
+  background: url("../images/coffee3.jpg") 50% 0% no-repeat fixed;
   background-size: cover;
-  color:white;
+
+}
+
+form{
+  color:#f2f2f2;
   font-size: 20px;
-  opacity: 0.8;
 
 }
 
