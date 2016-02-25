@@ -466,8 +466,7 @@ margin:0 auto;
 
 .five{
   color:rgba(238, 238, 238, 0.99);
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 25px;
   padding-top: 138px;
   text-shadow: 1px -5px 0px black;
   font-style: italic;
@@ -477,12 +476,13 @@ margin:0 auto;
 
 }
 
-.six{
+<<<<<<< 3a54aec7b6440aad1e3ee09c19742d220668f5bf
+#mail{
   color:rgba(238, 238, 238, 0.99);
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: bold;
   font-style: italic;
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
   margin-left:30px;
   padding-bottom: 10px;
 }
