@@ -591,6 +591,11 @@ margin:0 auto;
   margin:0 auto;
 }
 
+#exampleMessage{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .iconone{
   background-color:rgb(5, 32, 51);
   color:#E1E1E1;
@@ -603,9 +608,10 @@ margin:0 auto;
 }
 
 .section-form{
-  padding:25px;
-  background: url("../images/coffee3.jpg") 50% 0% no-repeat fixed;
+  padding:45px;
+  background: url("../images/coffee3.jpg") 50% -70% no-repeat fixed;
   background-size: cover;
+  height: 400px;
   
 
 }
@@ -613,6 +619,7 @@ margin:0 auto;
 form{
   color:#f2f2f2;
   font-size: 20px;
+  padding: 40px;
 
 }
 
@@ -643,6 +650,7 @@ form{
 .unique{
   text-shadow: -3px 1px 2px black;
   font-size: 32px;
+  padding-bottom: 30px;
 }
 
 h2{
